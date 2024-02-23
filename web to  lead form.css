@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+h1{
+    text-align: center;
+}
+ input,label {
+    display: block;
+ }
+
+ label {
+    color: #1d7373;
+ }
+
+ input {
+    width: 100%; /* Adjust the width of input elements */
+    max-width: 300px; /* Set a maximum width to prevent excessive stretching */
+    margin: 5px auto; /* Add some margin for spacing between input elements */
+}
+
+
+ form {
+    margin: 0 auto; /* Centers the form horizontally */
+    max-width: 300px; /* Set a maximum width for better readability */
+    min-width: 100px;
+    border: 2px solid;
+    padding: 15px;
+}
+
+
+ .submit{
+    margin: 15px auto 0 auto;
+    width: 40%;
+    background-color: hsla(198, 71%, 61%, 0.773);
+    border-radius: 5px;
+ }
